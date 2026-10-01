@@ -1,0 +1,14 @@
+﻿variables,definitions
+sn,serial number
+pid,patient identification
+age_bl,age of the patient
+gender_bl,gender of the patient
+est_tra,estimated percent of TRA 
+od_230,Pvs230 OD values of samples from ELISA
+od_47,Pvs47 OD values of samples from ELISA
+od_hap2,PvHAP2 OD values of samples from ELISA
+od_4845,Pvs48/45 OD values of samples from ELISA
+result_230a,"result of Pvs230 based on OD values; ""positive"" or ""negative"""
+result_47a,"result of Pvs47 based on OD values; ""positive"" or ""negative"""
+result_hap2a,"result of PvHAP2 based on OD values; ""positive"" or ""negative"""
+result_4845a,"result of Pvs48/45 based on OD values; ""positive"" or ""negative"""

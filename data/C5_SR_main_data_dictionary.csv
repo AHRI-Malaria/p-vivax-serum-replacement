@@ -1,0 +1,45 @@
+﻿variables ,definitions
+pid,patient identification (ID)
+age_bl,age of the patients
+gender_bl,gender of the patients
+temperature_fl,axillary temperature of the patients
+pfpar_ul,Pf parasite density per microliter
+pvcopies_ul,Pv18S copies per microliter
+pvs25_copiesul,Pvs25  copies per microliter
+mic_sps,parasite species by microscope
+pcr_status,parasite species by PCR
+ndissect_wb,number of dissected mosquitoes for whole blood  feeds
+ninfectwb,number of infected mosquitoes for whole blood  feeds
+pinfectwb,percent of infected mosquitoes for whole blood  feeds
+ndissect_rp,number of dissected mosquitoes for serum replaced feeds
+ninfectrp,number of infected mosquitoes for serum replaced  feeds
+pinfectrp,percent of infected mosquitoes for serum replaced feeds
+infect_wb,"infectious for whole blood? ""yes =1; no=0"""
+infect_rp,"infectious for serum replaced? ""yes =1; no=0"""
+est_mean_sr,estimated mean of oocyst density for serum replaced feeds
+meansr_lower_ci,lower 95% CI for estimated mean of oocyst density for serum replaced feeds
+meansr_upper_ci,upper 95% CI for estimated mean of oocyst density for serum replaced feeds
+est_mean_wb1,estimated mean of oocyst density for whole blood feeds
+meanwb_lower_ci,lower 95% CI for estimated mean of oocyst density for whole blood feeds
+meanwb_upper_ci,upper 95% CI for estimated mean of oocyst density for whole blood feeds
+selected,variable to select infectious samples with enough oocyst density for TRA analysis; 1=selected;0=not
+tra_lower_ci,lower 95% CI for estimated percent of TRA 
+tra_upper_ci,upper 95% CI for estimated percent of TRA 
+est_tra,estimated percent of TRA 
+t<10,percent TRA <10; 1=yes;0=no
+t11-30,percent TRA 11- 30; 1=yes;0=no
+t31-50,percent TRA 31 - 50; 1=yes;0=no
+t51-80,percent TRA 51 - 80; 1=yes;0=no
+t81-90,percent TRA 81 - 90; 1=yes;0=no
+t91-100,percent TRA 91 -100; 1=yes;0=no
+tra_status80,"status of TRA at >80%; ""blocker"" or ""non blocker"""
+age_cat,age categories of the patients
+fever_satus,fever status of the patients based on axillary temperature
+od_230,Pvs230 OD values of samples from ELISA
+od_47,Pvs47 OD values of samples from ELISA
+od_hap2,PvHAP2 OD values of samples from ELISA
+od_4845,Pvs48/45 OD values of samples from ELISA
+result_230a,"result of Pvs230 based on OD values; ""positive"" or ""negative"""
+result_47a,"result of Pvs47 based on OD values; ""positive"" or ""negative"""
+result_hap2a,"result of PvHAP2 based on OD values; ""positive"" or ""negative"""
+result_4845a,"result of Pvs48/45 based on OD values; ""positive"" or ""negative"""
